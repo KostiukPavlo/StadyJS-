@@ -1,0 +1,29 @@
+a {
+    margin: 50px;
+    font-size: 100px;
+}
+
+p {
+    margin: 50px;
+    font-size: 50px;
+    background-color: rgba(95, 95, 95, 0.801);
+    color: #fff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 20px;
+}
+
+.show_block {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(124, 124, 124);
+    margin: 1px auto;
+    /* box-shadow: 0 5px 10px 5px #517aff; */
+    /* display: none; */
+}
