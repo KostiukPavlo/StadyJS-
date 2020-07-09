@@ -1,19 +1,27 @@
 // Setup
-var testObj = {
-    12: "Namath",
-    16: "Montana",
-    19: "Unitas"
-};
+function phoneticLookup(val) {
+    var result = "";
 
-// Only change code below this line
+    // Only change code below this line
 
-var playerNumberFirst = 12; // Change this line
-var playerNumberSecond = 15; // Change this line
-var playerNumberLast = 19; // Change this line
-var player1 = testObj[playerNumberFirst]; // Change this line
-var player2 = testObj[playerNumberSecond]; // Change this line
-var player3 = testObj[playerNumberLast]; // Change this line
+    var lookup = {
+        "alpha": "Adams",
+        "bravo": "Boston",
+        "charlie": "Chicago",
+        "delta": "Denver",
+        "echo": "Easy",
+        "foxtrot": "Frank"
+    }
 
-console.log(player1);
-console.log(player2);
-console.log(player3);
+
+    result = lookup[val];
+
+
+    // Only change code above this line
+    return result;
+}
+
+
+console.log(phoneticLookup("charlie"));
+console.log(phoneticLookup("foxtrot"));
+console.log(phoneticLookup("echo"));
