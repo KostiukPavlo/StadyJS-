@@ -1,12 +1,7 @@
-Измените функцию, 
-checkObj чтобы проверить, содержит ли объект, 
-переданный функции ( obj), 
-определенное свойство ( checkProp). 
-Если свойство найдено, вернуть значение этого свойства. 
-Если нет, вернитесь "Not Found".
+Получите доступ к myStorageо бъекту
+ и назначьте содержимое glove box свойства gloveBoxContents переменной. 
+ Используйте точечную нотацию для всех свойств, где это возможно, в противном случае используйте скобочную нотацию.
 
 
-gift: "pony", pet: "kitten", bed: "sleigh"
-
-
-checkObj({gift: "pony", pet: "kitten", bed: "sleigh"}, "gift");
+ ourStorage.cabinet["top drawer"].folder2;  // "secrets"
+ourStorage.desk.drawer; // "stapler"
