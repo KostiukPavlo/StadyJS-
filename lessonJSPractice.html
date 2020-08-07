@@ -4,16 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="js/lessonJSPractice.js">
+    <title>LessonJSPractice</title>
+    <link rel="stylesheet" href="css/lessonJSPractice.css">
+    <script src="js/lessonJSPractice.js"></script>
 </head>
 
 <body>
 
+    <label> <input type="checkbox" name="" id="one" onchange="fun1()">Text
+    </label>
+    <br><br>
 
+    <input type="radio" name="r1" value="5">0
+    <input type="radio" name="r1" value="55">1
+    <input type="radio" name="r1" value="555">2
+    <button onclick="fun2()">Перевірка</button>
+    <br><br>
 
+    <select name="" id="selec" onchange="fun3()">
+        <option value="">First</option>
+        <option value="">Second</option>
+        <option value="">Third</option>
+        <option value="">Fourth</option>
+    </select>
+    <br><br>
 
+    <input id="ran" type="range" name="" min="0" max="100" step="1" oninput="fun4()">
+    <p id="par"></p>
+    <br><br>
 
+    <div class="change">
+        <p>Верхній лівий кут
+            <input type="range" value="0" id="rtl" min="0" max="100" step="1" oninput="gen()">
+        </p>
+
+        <p>Верхній правий кут
+            <input type="range" value="0" id="rtr" min="0" max="100" step="1" oninput="gen()">
+        </p>
+
+        <p>Нижній лівий кут
+            <input type="range" value="0" id="rbl" min="0" max="100" step="1" oninput="gen()">
+        </p>
+
+        <p>Нижній правий кут
+            <input type="range" value="0" id="rbr" min="0" max="100" step="1" oninput="gen()">
+
+        </p>
+    </div>
+    <div id="block"></div>
 
 
 </body>
