@@ -30,8 +30,6 @@ function fun4() {
     ar.innerHTML = an.value;
 }
 
-
-
 function gen() {
     let rtl = document.getElementById('rtl').value;
     let rtr = document.getElementById('rtr').value;
